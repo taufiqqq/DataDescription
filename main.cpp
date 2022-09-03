@@ -77,3 +77,4 @@ int main()
     return 0;
 
     // No mode, median, quartile calculation
+}
