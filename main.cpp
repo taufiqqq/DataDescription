@@ -51,7 +51,6 @@ int main()
     {
         kurtos = kurtos + (pow((number[j - 1] - mean), 4) / ((n - 1) * (pow(stddev, 4))));
     }
-
     cout << "Kurtosis= " << kurtos << endl;
 
     if (skew == 0)
@@ -77,5 +76,4 @@ int main()
     system("PAUSE");
     return 0;
 
-    // No mode, median, quartile calculation bcs I'm too lazy to play with array for those questions
-}
+    // No mode, median, quartile calculation
